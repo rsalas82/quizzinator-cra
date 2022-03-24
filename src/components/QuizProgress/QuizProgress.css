@@ -1,0 +1,78 @@
+.QuizProgress {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .question_step {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .question_step::before {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid var(--theme-color_1);
+    width: 100%;
+    top: 20px;
+    left: -50%;
+    z-index: 2;
+  }
+  
+  .question_step::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid var(--theme-color_1);
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 2;
+  }
+  
+  .question_step .question_counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--theme-color_1);
+    margin-bottom: 6px;
+  }
+  
+  .question_step.active .question_counter{
+    background-color: var(--theme-color_1);
+  }
+
+  .question_step.correct .question_counter{
+    background: var(--step-color_correct);
+  }
+
+  .question_step.not_correct .question_counter{
+    background: var(--step-color_wrong);
+  }
+    
+  .question_step.correct::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid var(--theme-color_1);
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 3;
+  }
+  
+  .question_step:first-child::before {
+    content: none;
+  }
+  .question_step:last-child::after {
+    content: none;
+  }

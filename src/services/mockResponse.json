@@ -1,0 +1,117 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "History",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "Japan was part of the Allied Powers during World War I.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many scoring zones are there on a conventional dart board?",
+            "correct_answer": "82",
+            "incorrect_answers": [
+                "62",
+                "42",
+                "102"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "If you could fold a piece of paper in half 50 times, its&#039; thickness will be 3/4th the distance from the Earth to the Sun.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which one of these Pink Floyd albums were also a movie?",
+            "correct_answer": "The Wall",
+            "incorrect_answers": [
+                "The Dark Side of the Moon",
+                "Wish You Were Here",
+                "Animals"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the name of the the first episode of Doctor Who to air in 1963?",
+            "correct_answer": "An Unearthly Child",
+            "incorrect_answers": [
+                "The Daleks",
+                "The Aztecs",
+                "The Edge of Destruction"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "In Greek mythology, Hera is the goddess of harvest.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the creature that the main character befriends in &quot;The Last Guardian&quot;?",
+            "correct_answer": "Trico",
+            "incorrect_answers": [
+                "Nico",
+                "Wolf",
+                "Andazi"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In which of these TV shows did the chef Gordon Ramsay not appear?",
+            "correct_answer": "Auction Hunters",
+            "incorrect_answers": [
+                "Ramsay&#039;s Kitchen Nightmares",
+                "Hotel Hell",
+                "Hell&#039;s Kitchen"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "In the Season One Championship of &quot;League of Legends&quot;, the highest achievable rank was Diamond.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What historical time period was the center of the Assassin&rsquo;s Creed movie (2016)?",
+            "correct_answer": "Spanish Inquisition",
+            "incorrect_answers": [
+                "Victorian England",
+                "French Revolution",
+                "Colonial America"
+            ]
+        }
+    ]
+}

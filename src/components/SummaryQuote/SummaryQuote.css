@@ -1,0 +1,6 @@
+.SummaryQuote {
+    margin: 2rem;
+    background-color: var(--theme-color_1);
+    border-radius: 5px;
+    padding: 0 1rem;
+}

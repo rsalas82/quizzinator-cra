@@ -1,0 +1,30 @@
+.Footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Footer > * {
+    margin: 0 1rem;
+}
+
+.Footer > .social-network ul {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.Footer > .social-network a {
+    color: var(--theme-body-txt);
+}
+
+.Footer > .social-network a:hover,
+.Footer > .social-network a:active {
+    color: var(--theme-color_1);
+}
+
+.Footer > .developedBy {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

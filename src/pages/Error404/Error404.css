@@ -1,0 +1,5 @@
+.Error404 > p {
+    background-color: var(--theme-color_1);
+    padding: 2rem;
+    border-radius: 5px;
+}
